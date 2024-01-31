@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/frontend/style.css">
+</head>
+<body>
+    <div id="containerSearch">
+        <input id="inputSearch" type="text" placeholder="Ingresa el codigo del pais">
+    </div>
+    <div id="containerInput">
+        <label for="code">Code</label>
+        <input id="code" type="text" value="" disabled>
+        <label for="name">Name</label>
+        <input id="name" type="text" value="" disabled>
+        <label for="caplital">Caplital</label>
+        <input id="caplital" type="text" value="" disabled>
+        <label for="continent">Continent</label>
+        <input id="continent" type="text" value="" disabled>
+    </div>
+    <button id="consult">Consult</button>
+    <button id="send" disabled>Send</button>
+    <ul id="containerCountries"></ul>
+    <script type="module" src="./src/frontend/main.js"></script>
+</body>
+</html>
